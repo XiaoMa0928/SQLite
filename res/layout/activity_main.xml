@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="API1_insert" />
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_insert"
+        android:layout_centerHorizontal="true"
+        android:text="API1_query" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_query"
+        android:layout_centerHorizontal="true"
+        android:text="API1_update" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_update"
+        android:layout_centerHorizontal="true"
+        android:text="API1_delete" />
+
+    <Button
+        android:id="@+id/btn_insert_api"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_delete"
+        android:layout_centerHorizontal="true"
+        android:text="API2_insert_API" />
+
+    <Button
+        android:id="@+id/btn_query_api"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_insert_api"
+        android:layout_centerHorizontal="true"
+        android:text="API2_query_API" />
+
+    <Button
+        android:id="@+id/btn_update_api"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_query_api"
+        android:layout_centerHorizontal="true"
+        android:text="API2_update_API" />
+
+    <Button
+        android:id="@+id/btn_delete_api"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_update_api"
+        android:layout_centerHorizontal="true"
+        android:text="API2_delete_API" />
+
+</RelativeLayout>
